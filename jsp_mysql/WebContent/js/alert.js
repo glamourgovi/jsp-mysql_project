@@ -1,0 +1,1 @@
+function t(){window.alert("Not Allowed");}

@@ -1,0 +1,489 @@
+*{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+body{
+    background: white;
+}
+.navbar{
+    width: 100%;
+    height: auto;
+    background-color: dodgerblue;
+}
+.navbar ul li{
+    list-style: none;
+    float: left;
+    width: auto;
+    padding-left: 10px;
+    display: block;
+}
+.navbar ul li a{
+    color: white;
+    font-weight: bold;
+    padding: 14px;
+    padding-left: 20px;
+    display: block;
+}
+#logout{
+    padding: 0;
+}
+.navbar ul li a:hover{
+    opacity: 0.8;
+}
+#user img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.menu{
+    width: 100%;
+    height: 90%;
+    background-color: black;
+    padding: 0px;
+}
+.menu ul li{
+    list-style: none;
+    text-align: center;
+    display: block;
+    padding: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+}
+.menu ul li:hover{
+    background: white;
+}
+.menu ul li.active{
+    background: white;
+}
+.content{
+    width: 100%;
+    height: 90%;
+}
+.project{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    padding-top: 20px;
+    -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+            transform: scale(0);
+}
+.team{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+            transform: scale(0);
+}
+.gallery{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+            transform: scale(0);
+}
+.event{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+            transform: scale(0);
+}
+.testimonial{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+            transform: scale(0);
+}
+.active2{
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+}
+.project .dis{
+    padding-bottom: 20px;
+}
+.project .dis table{
+    width: 100%;
+    display: block;
+}
+.project .dis table thead{
+    display: inline-block;
+    height: 30px;
+    padding: 10px;
+}
+.project .dis table tbody{
+    height: 200px;
+    display: inline-block;
+    overflow: auto;
+}
+.project .dis table th{
+    padding: 10px;
+}
+.project .dis table td{
+    padding: 10px;
+}
+.cont{
+    position: absolute;
+    //padding-top: 20px;
+}
+.dis #pimg{
+    width: 100%;
+    height: 200px;
+    background: rgba(255,255,20,0.2);
+}
+.dis #pimg tr td{
+    padding: 7px;
+}
+
+.clr1{
+    background: blue;
+}
+.clr2{
+    background: red;
+}
+.clr3{
+    background: green;
+}
+
+.dis #ptype{
+    width: 100%;
+    height: 200px;
+    background: rgba(0,0,255,0.2);
+}
+.dis #ptype tr td{
+    padding: 7px;
+}
+
+
+
+
+
+
+.cont #pinsert{
+    width: 100%;
+    height: 300px;
+    background: rgba(0,0,255,0.2);
+}
+.cont #pinsert table tr td{
+    padding: 5px;
+    color: black;
+}
+.cont #pinsert input[type=text]{
+    width: 230px;
+}
+.cont #pupdate{
+    width: 100%;
+    height: 300px;
+    background: rgba(0,255,0,0.2);
+}
+.cont #pupdate table tr td{
+    padding: 5px;
+    color: black;
+}
+.cont #pupdate input[type=text]{
+    width: 230px;
+}
+.cont #pdelete{
+    width: 100%;
+    height: 300px;
+    background: rgba(255,0,0,0.2);
+}
+.cont #pdelete table tr td{
+    padding: 5px;
+    color: black;
+}
+.cont #pdelete input[type=submit]{
+    width: 230px;
+}
+  
+
+
+
+/* ....... Team Member......................   */
+
+
+
+
+
+.team .trow{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.team .trow table{
+    width: 100%;
+    display: block;
+}
+.team .trow table thead{
+    display: inline-block;
+    height: 30px;
+    padding: 10px;
+}
+.team .trow table tbody{
+    height: 200px;
+    display: inline-block;
+    overflow: auto;
+}
+.team .trow table th{
+    padding: 10px;
+}
+.team .trow table td{
+    padding: 10px;
+}
+
+
+.team .trow2 #tinsert{
+    width: 100%;
+    height: 300px;
+    background: #99ff99;
+    border-right: 1px dotted black;
+}
+.team .trow2 #tinsert tr td{
+    padding: 5px;
+}
+.team .trow2 #tinsert input[type=text]{
+    width: 200px;
+}
+.team .trow2 #tdelete{
+    width: 100%;
+    height: 300px;
+    background: #99ff99;
+    border-right: 1px dotted black;
+}
+.team .trow2 #tdelete tr td{
+    padding: 5px;
+}
+.team .trow2 #tdelete input[type=submit]{
+    width: 200px;
+}
+.team .trow2 #tupdate{
+    width: 100%;
+    height: 300px;
+    background: #99ff99;
+}
+.team .trow2 #tupdate tr td{
+    padding: 5px;
+}
+.team .trow2 #tupdate input[type=submit]{
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+/*...........Gallery.............*/
+
+
+
+
+
+
+.gallery .grow{
+    width: 100%;
+    height: 400px;
+    overflow: auto;
+    padding: 10px;
+    background: rgba(0,0,0,0.3);
+}
+.gallery .grow img{
+    width: 100%;
+    height: 200px;
+    display: inline-block;
+    float: left;
+}
+.gallery .grow input[type=radio]{
+    position: absolute;
+    display: none;
+}
+.gallery .grow label>input[type=radio]+img{
+    border: 2px solid blue;
+    cursor: pointer;
+}
+.gallery .grow label>input[type=radio]:checked+img{
+    border: 5px solid red;
+    filter: grayscale(100%);
+}
+.gallery .grow .del input[type=submit]:hover{
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.5);
+    background: #6d0000;
+    color: white;
+}
+.gallery .grow .del input[type=submit]{
+    background: #bc0000;
+    height: 40px;
+    width: 150px;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+    position: fixed;
+    z-index: 99;
+    top: 15;
+    right: 80
+}
+
+.gallery .grow2{
+    padding: 10px;
+    padding-top: 30px;
+    background: #c9f4ff;
+}
+.gallery .grow2 input[type=submit]{
+    width: 200px;
+    height: 40px;
+    background: #5ec6ff;
+    border: none;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,0.4);
+}
+.gallery .grow2 input[type=submit]:hover{
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,0.8);
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* ............ Event...........*/
+
+
+
+
+
+
+.event .erow table tr td{
+    padding: 5px;
+}
+.event .erow{
+    padding: 10px;
+    padding-top: 30px;
+    background: #c9f4ff;
+}
+.event .erow input[type=submit]{
+    width: 200px;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,0.4);
+}
+.event .erow input[type=submit]:hover{
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,0.8);
+    cursor: pointer;
+}
+
+.event .erow .einsert{
+    border-right: 1px dotted black;
+}
+.event .erow .eimage{
+    border-right: 1px dotted black;
+}
+
+
+
+
+
+
+
+
+
+/*............Testimonial.........*/
+
+
+
+
+
+
+
+.testimonial .trow{
+    padding: 20px;
+}
+.testimonial .trow table{
+    width: 100%;
+    display: block;
+}
+.testimonial .trow table thead{
+    display: inline-block;
+    height: 30px;
+    padding: 10px;
+}
+.testimonial .trow table tbody{
+    height: 200px;
+    display: inline-block;
+    overflow: auto;
+}
+.testimonial .trow table th{
+    padding: 10px;
+}
+.testimonial .trow table td{
+    padding: 10px;
+} 
+
+
+
+.testimonial .trow2{
+    padding: 0 40px;
+} 
+.testimonial .trow2 input[type=submit]{
+    width: 200px;
+}
+
+
+.profileimg{
+    width: 230px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    top: 68px;
+    right: 5px;
+    box-shadow: 0 5px 20px 0 black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.profileimg table tr td{
+    padding: 5px;
+}
+
+.profileimg input[type=submit]{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: aqua;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+.profileimg input[type=reset]{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: aqua;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+.profileimg input[type=reset]:hover{
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.6);
+}
+.profileimg input[type=submit]:hover{
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.6);
+}
+
+
+
+
+
+
+
+
+
+
+
